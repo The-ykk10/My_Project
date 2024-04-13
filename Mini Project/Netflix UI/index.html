@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="public/images/favicon.ico">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .shade {
+            background-color: rgba(0,0,0,0.6);
+            height: 1000px;
+            width: 101%;
+            margin-left: -10px;
+            margin-top: -20px;
+        }
+        .brand-name {
+            font-size: 40px;
+            color:red;
+            font-weight: bold;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            text-shadow: 2px 2px 2px black;
+        }
+        header {
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-right: 30 px;
+            color:white;
+            display: flex;
+            justify-content: space-between;
+        }
+        .language {
+            background-color:rgba(0, 0, 0, 0.404);
+            color:white;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: Arial;
+        }
+        .language span {
+            margin-right: 10px;
+        }
+        .button {
+            background-color: red;
+            color:white;
+            padding: 5px;
+            margin-left: 20px;
+            width: 60px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial;
+            margin-right: 100px
+        }
+        .right-panel {
+            display: flex;
+            height: 35px;
+        }
+        section {
+            margin-top: 50px;
+            color:white;
+            font-family: Arial;
+            margin-left: 20px;
+            height: 500px;
+            
+        }
+        .title {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: bold;
+            width: 55%;
+            margin-top: 400px;
+            margin-left: 550px;
+        }
+        .sub-title {
+            font-size: 30px;
+            margin-top: 30px;
+            margin-left: 550px;
+        }
+        .register-text {
+            font-size: 20px;
+            margin-top: 30px;
+            margin-left: 550px;
+        }
+        .register-form {
+            margin-top: 20px;
+            display: flex;
+            margin-left: 550px;
+        }
+        .email {
+            background-color: rgba(0, 0, 0, 0.286);
+            padding: 10px;
+            width: 300px;
+            height: 30px;
+            font-size: 20px;
+        }
+        .register-button {
+            width: 200px;
+            height: 30px;
+            font-size: 20px;
+            background-color: red;
+            color:white;
+            padding: 10px;
+            margin-left: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer {
+          color: white;
+          background-color: black;
+          display: grid;
+          grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr;
+          font-family: Arial;
+          padding: 10px;
+        }
+        .footer-title{
+            margin-bottom: 10px;
+            font-weight: bold;
+            
+        }
+        .footer-title~div{
+            margin-bottom: 15px;
+        }
+       
+    </style>
+    
+</head>
+<body background="public/images/netflix-background.jpg">
+   
+     <div class="shade">
+     <header>
+        <div>
+            <span class="brand-name">NETFLIX</span>
+        </div>
+        <div class="right-panel">
+            <div class="language"><span class="bi bi-globe"></span><span>English</span><span class="bi bi-chevron-down"></span></div>
+            <div class="button">Sign in</div>
+        </div>
+     </header>
+     <section>
+        <main>
+            <div class="title">Unlimited movies, TV shows and more</div>
+            <div class="sub-title">Watch anywhere. Cancel anytime.</div>
+            <div class="register-text">Ready to watch? Enter your email to create or restart your membership.</div>
+            <div class="register-form">
+                <div class="email"> Your email address </div>
+                <div class="register-button"><BUTton bgcolor="red"><a href="demo.html"> Get Started</a> </BUTton><span class="bi bi-chevron-right"></span> </div>
+            </div>  
+        </main>
+     </section>
+     <footer>
+        <div>
+         <div class="footer-title">FAQs</div>
+            <div>Investor Relations</div>
+            <div>Privacy</div>
+            <div>Speed Test</div>
+        </div>
+        <div>
+          <div class="footer-title">Help Centre</div>
+             <div> Jobs</div>
+             <div>Cookie Preferences</div>
+             <div>Legal Notice</div>
+       </div>
+       <div>
+        <div class="footer-title">Account</div>
+        <div>Ways to watch </div>
+        <div>Corporate Information</div>
+        <div>Only on Netflix</div>
+       </div>
+        <div class="footer-title">Questions? Call 000-800-919-1694</div>
+      
+     </footer>
+     </div>
+</body>
+</html>
